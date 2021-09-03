@@ -1,6 +1,6 @@
 export default function Navbar() {
   return (
-    <header className="bg-gray-800 container mx-auto">
+    <header className="bg-gray-800">
       <div className="py-5 px-2 flex md:flex-row flex-col gap-y-3">
           <a href="#about" className="text-white md:border-r-2 text-xl md:px-4 md:my-auto self-center font-medium">
             David Rodriguez Ramirez
