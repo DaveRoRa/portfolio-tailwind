@@ -18,20 +18,22 @@ export default function Projects() {
           <a
             key={project.title}
             href="google.com"
-            className="w-full md:w-1/2 md:h-80 lg:w-1/3 lg:h-80 p-4 center  "
+            className="w-full md:w-1/2 md:h-80 lg:w-1/3 p-4 center xl:h-96 "
           >
-            <div className="border-2 border-gray-500 p-10 flex flex-col gap-y-4 h-full justify-around items-center opacity-0 hover:opacity-100">
-              <h3 className="text-lg text-white font-medium">
-                {project.title}
-              </h3>
-              <h4 className="font-medium text-green-400">{project.subtitle}</h4>
-              <p className="text-center">{project.description}</p>
-            </div>
-            <div className="flex relative">
-              <img
-                className="object-center"
-                src="https://www.pngfind.com/pngs/m/685-6854970_react-logo-png-png-download-logo-png-reactjs.png"
-              />
+            <div className="relative h-full">
+                <img
+                  className="object-center inset-0 object-cover h-full w-full absolute opacity-100 hover:opacity-0 z-10"
+                  src="https://www.pngfind.com/pngs/m/685-6854970_react-logo-png-png-download-logo-png-reactjs.png"
+                />
+              <div className="relative border-2 border-gray-500 p-10 flex flex-col gap-y-4 h-full justify-around items-center">
+                <h3 className="text-lg text-white font-medium">
+                  {project.title}
+                </h3>
+                <h4 className="font-medium text-green-400">
+                  {project.subtitle}
+                </h4>
+                <p className="text-center">{project.description}</p>
+              </div>
             </div>
           </a>
         ))}
