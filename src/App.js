@@ -12,6 +12,7 @@ function App() {
     <div className='bg-gray-900 text-gray-400'>
       <Navbar/>
       <About/>
+      <Projects/>
     </div>
   );
 }
