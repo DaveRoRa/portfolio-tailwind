@@ -1,5 +1,9 @@
+import { TemplateIcon } from "@heroicons/react/solid";
+
 export default function Projects() {
   return (
-   <div></div> 
+   <section id='projects' className='flex flex-col gap-y-4'>
+     <TemplateIcon/>
+   </section>
   )
 }
