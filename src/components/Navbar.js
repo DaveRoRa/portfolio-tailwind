@@ -13,9 +13,6 @@ export default function Navbar() {
             <a href="#skills" className="hover:text-white">
               Skills
             </a>
-            <a href="#testimonials" className="hover:text-white">
-              Testimonials
-            </a>
           </nav>
           <a href="#contact" className="hover:bg-gray-700 py-1 px-2 md:py-2 md:px-4 rounded-md self-center flex flex-row">
             <span>Hire Me</span><ArrowRightIcon className='ml-2 w-5'/>

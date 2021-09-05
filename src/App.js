@@ -4,7 +4,6 @@ import {
   Navbar,
   Projects,
   Skills,
-  Testimonials,
 } from "./components";
 
 function App() {
