@@ -17,9 +17,9 @@ export default function Skills() {
       </p>
       <div className="flex flex-wrap mx-auto">
         {skills.map((skill) => (
-          <div key={skill} className="p-2 w-1/2">
-            <div className='rounded-md bg-gray-600 flex'>
-              <BadgeCheckIcon/><span>{skill}</span>
+          <div key={skill} className="p-2 md:w-1/2 w-full">
+            <div className='rounded-md bg-gray-800 flex items-center gap-x-4 p-3'>
+              <BadgeCheckIcon className='w-8 text-green-400'/><span className='text-white font-medium'>{skill}</span>
             </div>
           </div>
         ))}
