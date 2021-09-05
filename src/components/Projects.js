@@ -4,11 +4,11 @@ export default function Projects() {
   return (
     <section
       id="projects"
-      className="flex flex-col container mx-auto items-center  gap-y-4"
+      className="flex flex-col container mx-auto items-center  gap-y-8 mt-12"
     >
       <TemplateIcon className="w-16" />
       <h2 className="text-white text-4xl font-medium">Apps I've Built</h2>
-      <p className="text-center">
+      <p className="text-center mb-4">
         Lorem ipsum dolor sit amet, consectetur adipisicing elit. Qui laborum
         quasi, incidunt dolore iste nostrum cupiditate voluptas? Laborum,
         voluptas natus?
