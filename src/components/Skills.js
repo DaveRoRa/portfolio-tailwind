@@ -4,7 +4,7 @@ export default function Skills() {
   return (
     <section
       id="#skills"
-      className="flex flex-col container mx-auto items-center gap-y-8 mt-12"
+      className="flex flex-col container mx-auto items-center gap-y-8 mt-12 px-8"
     >
       <ChipIcon className="w-16" />
       <h2 className="text-white text-4xl font-medium">

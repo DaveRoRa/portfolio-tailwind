@@ -8,7 +8,7 @@ import {
 
 function App() {
   return (
-    <div className='bg-gray-900 text-gray-400'>
+    <div className='bg-gray-900 text-gray-400 min-w-sm pb-16'>
       <Navbar/>
       <About/>
       <Projects/>
