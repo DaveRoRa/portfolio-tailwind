@@ -15,7 +15,7 @@ export default function Contact() {
         <FormInput name='name'/>
         <FormInput name='email'/>
         <FormInput name='message'/>
-        <button type="submit" className="w-full md:w-2/3 lg:w-1/2 xl:w-1/3 rounded-md text-lg text-white p-2 font-medium hover:bg-green-800 bg-green-500">
+        <button type="submit" className="w-full md:w-2/3 lg:w-1/2 xl:w-2/5 rounded-md text-lg text-white p-2 font-medium hover:bg-green-800 bg-green-500">
           Submit
         </button>
       </form>
