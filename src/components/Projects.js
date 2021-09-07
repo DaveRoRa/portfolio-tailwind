@@ -21,7 +21,7 @@ export default function Projects() {
             className="w-full md:w-1/2 md:h-80 lg:w-1/3 p-4 center xl:h-96 "
           >
             <div className="relative h-full">
-                <img
+                <img alt={project.title}
                   className="object-center inset-0 object-cover h-full w-full absolute opacity-100 hover:opacity-0 z-10"
                   src="https://www.pngfind.com/pngs/m/685-6854970_react-logo-png-png-download-logo-png-reactjs.png"
                 />
