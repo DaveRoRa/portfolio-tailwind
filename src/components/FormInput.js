@@ -1,4 +1,4 @@
-export default function FormInput({ name }) {
+export default function FormInput({ name, onChange }) {
   const style = "w-full rounded-md p-2 bg-gray-800  border border-solid outline-none border-gray-500 focus:border-green-400 text-white focus:ring-2 focus:ring-green-700 transition-colors duration-300 ease-in-out";
 
   return (
@@ -7,9 +7,9 @@ export default function FormInput({ name }) {
         {name.charAt(0).toUpperCase() + name.slice(1)}
       </label>
       {name === "message" ? (
-        <textarea name={name} id={name} className={style + 'h-40'} />
+        <textarea name={name} id={name} className={style + 'h-40'} onChange={(e)=>onChange(e.target.value)} />
       ) : (
-        <input type={name} name={name} id={name} className={style + ' text-xl'} />
+        <input type={name} name={name} id={name} className={style + ' text-xl'} onChange={(e)=>onChange(e.target.value)}/>
       )}
     </div>
   );
