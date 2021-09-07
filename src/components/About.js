@@ -14,7 +14,7 @@ export default function About() {
         </div>
       </div>
       <div className='m-auto md:pr-8 pb-12'>
-        <img alt="profile picture" className='object-center rounded-full' src='https://www.pngfind.com/pngs/m/685-6854970_react-logo-png-png-download-logo-png-reactjs.png' />
+        <img alt="profile" className='object-center rounded-full' src='https://www.pngfind.com/pngs/m/685-6854970_react-logo-png-png-download-logo-png-reactjs.png' />
       </div>
     </section>
   )
