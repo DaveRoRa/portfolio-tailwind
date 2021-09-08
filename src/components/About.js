@@ -1,6 +1,6 @@
 export default function About() {
   return (
-    <section id="about" className='container flex md:flex-row flex-col-reverse mx-auto mt-12 px-8'>
+    <section id="about" className='container flex md:flex-row flex-col-reverse mx-auto px-8'>
       <div className='flex flex-col m-auto gap-y-8 md:px-12 md:text-left text-center'>
         <h1 className='text-white text-4xl font-medium'>Hi, I'm David.I love to build amazing apps.</h1>
         <p>

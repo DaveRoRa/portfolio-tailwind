@@ -3,7 +3,7 @@ import { skills } from "../data";
 export default function Skills() {
   return (
     <section
-      id="#skills"
+      id="skills"
       className="flex flex-col container mx-auto items-center gap-y-8 mt-12 px-8"
     >
       <ChipIcon className="w-16" />
